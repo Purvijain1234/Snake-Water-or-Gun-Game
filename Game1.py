@@ -1,7 +1,7 @@
 import random
 
 def get_winner(player, computer):
-    """Determines the winner based on the rules"""
+    # Rules
     if player == computer:
         return "It's a draw!"
     elif (player == "snake" and computer == "water") or \
